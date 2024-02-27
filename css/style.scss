@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.row {
+  padding: 50px 0px;
+}
+
+.naslov {
+  margin-bottom: 20px;
+  font-size: 38px;
+  font-weight: bold;
+  color: #4A5D5E;
+}
+
+p {
+  font-size: 25px;
+}
+
+header section, nav ul, .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+header section, .row {
+  width: 80%;
+  margin: 0px auto;
+}
+
+header {
+  background-color: #E7EAEF;
+}
+
+header #logo {
+  width: 5%;
+}
+
+header #logo img {
+  width: 100%;
+}
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul li {
+  margin-left: 115px;
+}
+
+header nav ul li a {
+  color: #4A5D5E;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#cover {
+  background-image: url("../img/coverslika.jpg");
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#cover .pozadina {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  height: 100%;
+}
+
+#cover-sadrzaj {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+  text-align: center;
+}
+
+#cover-sadrzaj .slikah {
+  width: 30%;
+  margin: 0px auto;
+}
+
+#cover-sadrzaj .slikah img {
+  width: 100%;
+  border-radius: 10%;
+  border: none;
+}
+
+#cover-sadrzaj h1 {
+  font-size: 38px;
+  color: #E7EAEF;
+}
+
+#cover-sadrzaj p {
+  font-size: 25px;
+}
+
+.pozadina {
+  background-color: rgba(210, 219, 200, 0.5);
+}
+
+#omeni, #skilovi {
+  background-color: #ffF;
+}
+
+#omeni .polapola {
+  width: 100%;
+}
+
+#omeni .polapola .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+#omeni .naslov {
+  font-size: 40px;
+  color: #4A5D5E;
+  text-align: center;
+}
+
+#omeni .polapola .row:last-of-type {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#omeni .polapola ul {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+#omeni .polapola ul li {
+  display: inline;
+  margin-right: 40px;
+  background-color: #217074;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  transition: all 0.5s ease-in-out;
+}
+
+#omeni .polapola ul li a {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #E7EAEF;
+}
+
+#omeni .polapola ul li:hover {
+  background-color: #4A5D5E;
+}
+
+#skilovi {
+  background-color: #4A5D5E;
+}
+
+#skilovi .naslov {
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 50px;
+  background-color: #fff;
+}
+
+#skilovi .skil {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  width: 15%;
+  height: 300px;
+  padding: 15px 30px;
+}
+
+#skilovi .skil .procenat {
+  position: absolute;
+  top: 100px;
+}
+
+#skilovi .skil p {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#projekti {
+  background-color: #fff;
+}
+
+#projekti .naslov {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#projekti .projekat {
+  width: 30%;
+  border-radius: 5px;
+  border: 2px solid #4A5D5E;
+  background-color: #fff;
+}
+
+#projekti .projekat img {
+  width: 100%;
+  height: 250px;
+  border-radius: 5px 5px 0px 0px;
+  border: none;
+}
+
+#projekti .projekat .caption {
+  padding: 2px 16px;
+}
+
+#contact {
+  background-color: #4A5D5E;
+}
+
+#contact .naslov {
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 50px;
+  background-color: #fff;
+}
+
+.kontakt-container {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.rezervacija-forma {
+  width: 45%;
+  height: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rezervacija-forma h2 {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #218838;
+  }
+  footer {
+    background-color: #E7EAEF;
+  }
+
+  footer .row {
+    padding: 14px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer p {
+    font-size: 21px;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: #4A5D5E;
+    font-size: 21px;
+    text-transform: uppercase;
+  }
+
+  footer a:hover {
+    color: #000;
+  }
+
+  footer #cover-ikonice ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  footer #cover-ikonice i {
+    background-color: #E7EAEF;
+    color: #4A5D5E;
+    border-radius: 20px;
+    border: none;
+    font-size: 24px;
+    width: 35px;
+  }
